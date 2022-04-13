@@ -6,7 +6,6 @@ test_digits=cv2.imread("test.png",cv2.IMREAD_GRAYSCALE)
 
 test_digits=np.vsplit(test_digits,50)
 
-#test digits
 
 test_cells=[]
 for d in test_digits:
